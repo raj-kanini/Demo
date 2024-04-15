@@ -1,0 +1,14 @@
+/* Set the width of all <img> elements to 10% of their parent container */
+img {
+  width: 10%;
+}
+
+/* Remove text decoration from all <p> elements */
+p {
+  text-decoration: none;
+}
+
+/* Remove text decoration from all <a> elements */
+a {
+  text-decoration: none;
+}

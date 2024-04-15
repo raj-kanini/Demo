@@ -1,0 +1,50 @@
+<div class="card-container">
+  <!-- Filters Panel -->
+  <div class="filter-div pt-3 ps-4 d-flex border-bottom">
+    <p class="pt-2 fw-semibold">Sort by:</p>
+    <!-- Category Filter -->
+    <select [(ngModel)]="selectedCategory" (change)="applyFilters()" name="category-filter" id="categoryFilter"
+      class="filters-select form-select ms-3">
+      <option value="all">All</option>
+      <option value="topwear">Top Wear</option>
+      <option value="bottomwear">Bottom Wear</option>
+      <option value="footwear">Foot Wear</option>
+    </select>
+
+    <!-- Price Filter -->
+    <select [(ngModel)]="selectedSortOption" (change)="applyFilters()" name="price-filter" id="priceFilter"
+      class="filters-select form-select ms-3">
+      <option value="htol">Price: High To Low</option>
+      <option value="ltoh">Price: Low To High</option>
+    </select>
+  </div>
+
+  <!-- Products Panel -->
+  <div class="row ps-5 pt-3 pb-3 pe-5 overflow-auto products-panel">
+    <div class="col-3 p-3" *ngFor="let p of products" routerLink="/viewproduct/{{p.id}}">
+      <div class="card h-100">
+        <img class="card-img" [src]=" 'data:image/png;base64,' + p.imageUrl" alt="Vans">
+        <div class="card-img-overlay d-flex justify-content-end">
+          <a href="#" class="card-link like">
+            <i class="bi bi-heart"></i>
+          </a>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">{{p.name}}</h4>
+          <h6 class="card-subtitle mb-2 text-muted">Style: {{p.style}}</h6>
+          <p class="card-text">
+            {{p.description}}</p>
+          <div class="buy d-flex justify-content-between align-items-center">
+            <div class="price text-success">
+              <h5 class="mt-4">${{p.price}}</h5>
+            </div>
+            <button class="btn add-cart-btn text-white mt-3"><i class="bi bi-cart"
+                (click)="addToCart(p.id)"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

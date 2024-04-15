@@ -1,0 +1,99 @@
+/* Reset default styles and set the font family */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+
+/* Styling for the hero section */
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(#006663, #111111);
+  position: relative;
+  padding: 0.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for the content within the hero section */
+.content {
+  text-align: center;
+}
+
+/* Styling for the heading within the content */
+.content h1 {
+  font-size: 10vw;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 1200px) {
+  .content h1 {
+    font-size: 100px;
+    /* You can set a fixed font size for larger screens if desired */
+  }
+}
+
+/* Hover effect for the heading */
+.content h1:hover {
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+}
+
+/* Styling for the link within the content */
+.content a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-size: 24px;
+  border: 2px solid #fff;
+  padding: 14px 70px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+/* 
+     The following CSS rules are related to the video background, 
+     which has been temporarily commented out.
+  */
+
+/* 
+     Set the video's position to be absolute, aligned to the bottom-right corner,
+     and with a lower z-index so it stays in the background.
+  */
+
+/* .back-video{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+  }
+  
+  @media (min-aspect-ratio: 16/9){
+      .back-video{
+          width: 100%;
+          height: auto;
+      }
+  }
+  
+  @media (max-aspect-ratio: 16/9){
+      .back-video{
+          width: auto;
+          height: 100%;
+      }
+  } */
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+
+  /* For devices with a maximum width of 600px or less */
+  h1 {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,22 @@
+/* body {
+    padding: 2rem 0rem;
+  } */
+  
+  .filters-select{
+    width: 15% !important;
+    height: 40px !important;
+    /* border; */
+  }
+  .card-container{
+  margin-top: 5.5%;
+  }
+  .like {
+    font-size: 1.5rem;
+    color: #006663;
+  }
+  .products-panel{
+    max-height: 600px;
+  }
+  .add-cart-btn{
+    background-color: #006663;
+  }

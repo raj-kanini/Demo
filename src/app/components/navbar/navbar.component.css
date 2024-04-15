@@ -1,0 +1,38 @@
+/* Styles for the navigation bar */
+nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  z-index: 1100; /* Set a higher z-index value */
+}
+
+/* Styles for list items within the navigation */
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 35px;
+}
+
+/* Styles for links within list items */
+nav ul li a {
+  text-decoration: none;
+  color: #fff !important;
+  font-size: 17px;
+}
+
+/* Styles for the element with id 'AttireAvenue' */
+#AttireAvenue {
+  color: #fff;
+}
+
+
+i{
+  cursor: pointer;
+}

@@ -1,0 +1,107 @@
+<div class="row mt-5 p-5">
+  <div class="col-75">
+    <div class="container">
+      <form>
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="rtcodex">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="rtcodex@gmail.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="Pune">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="MH">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="123123">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="rtcodex">
+            <label for="ccnum">Card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2027">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input (click)="makePdf()" value="Pay" class="btn fw-semibold">
+      </form>
+    </div>
+  </div>
+
+  <!-- Product Count List   -->
+  <div class="col-25">
+    <div class="container">
+      <h4>Cart
+        <span class="price" style="color:black">
+          <i class="fa fa-shopping-cart me-1"></i>
+          <b>{{cartLength}}</b>
+        </span>
+      </h4>
+
+      <div *ngFor="let p of user[0].cart">
+        <span>{{p.name}}</span> <span class="price">${{p.price}}</span>
+      </div>
+
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>${{totalPrice}}</b></span></p>
+    </div>
+  </div>
+</div>
+<div id="content" #content>
+  <h6>Name</h6>
+  <div class="col-25">
+    <div class="pdfContent">
+      <h4>Cart
+        <span class="price" style="color:black">
+          <i class="fa fa-shopping-cart me-1"></i>
+          <b>{{cartLength}}</b>
+        </span>
+      </h4>
+
+      <div *ngFor="let p of user[0].cart">
+        <span>{{p.name}}</span> <span class="price">${{p.price}}</span>
+      </div>
+
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>${{totalPrice}}</b></span></p>
+    </div>
+  </div>
+
+</div>
+<app-footer></app-footer>

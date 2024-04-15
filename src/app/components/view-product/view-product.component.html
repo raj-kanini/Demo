@@ -1,0 +1,42 @@
+<!-- <div class="col-4 main">
+    <div class="card">
+        <img class="card-img" [src]=" 'data:image/png;base64,' + product.imageUrl" alt="Vans">
+        <div class="card-img-overlay d-flex justify-content-end">
+            <a href="#" class="card-link text-danger like">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">{{product.name}}</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Style: {{product.style}}</h6>
+            <p class="card-text">
+                {{product.description}}</p>
+            <div class="buy d-flex justify-content-between align-items-center">
+                <div class="price text-success">
+                    <h5 class="mt-4">${{product.price}}</h5>
+                </div>
+                <a href="#" class="btn btn-danger mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- <app-navbar></app-navbar> -->
+
+  <div class="wrapper">
+    <div class="product-img">
+      <img [src]=" 'data:image/png;base64,' + product.imageUrl" height="420" width="327">
+    </div>
+    <div class="product-info">
+      <div class="product-text">
+        <h1>{{product.name}}</h1>
+        <h2>{{product.style}}</h2>
+        <p>{{product.description}}</p>
+      </div>
+      <div class="product-price-btn">
+        <p><span>{{product.price}}</span>$</p>
+        <button type="button">buy now</button>
+      </div>
+    </div>
+  </div>
+
+  <app-footer></app-footer>

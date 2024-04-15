@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|c:\\users\\saurabhkumar\\source\\repos\\shoppingportalapi\\shoppingportalapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|solutionrelative:shoppingportalapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|c:\\users\\saurabhkumar\\source\\repos\\shoppingportalapi\\shoppingportalapi\\models\\cartdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|solutionrelative:shoppingportalapi\\models\\cartdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|c:\\users\\saurabhkumar\\source\\repos\\shoppingportalapi\\shoppingportalapi\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|solutionrelative:shoppingportalapi\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|c:\\users\\saurabhkumar\\source\\repos\\shoppingportalapi\\shoppingportalapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|solutionrelative:shoppingportalapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|c:\\users\\saurabhkumar\\source\\repos\\shoppingportalapi\\shoppingportalapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|solutionrelative:shoppingportalapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|c:\\users\\saurabhkumar\\source\\repos\\shoppingportalapi\\shoppingportalapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|solutionrelative:shoppingportalapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|c:\\users\\saurabhkumar\\source\\repos\\shoppingportalapi\\shoppingportalapi\\controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|solutionrelative:shoppingportalapi\\controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|c:\\users\\saurabhkumar\\source\\repos\\shoppingportalapi\\shoppingportalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|solutionrelative:shoppingportalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Migrations\\20240415022924_Migrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ShoppingPortalApi\\Migrations\\20240415022924_Migrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Migrations\\20240415022828_Migrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ShoppingPortalApi\\Migrations\\20240415022828_Migrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|c:\\users\\saurabhkumar\\source\\repos\\shoppingportalapi\\shoppingportalapi\\models\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|solutionrelative:shoppingportalapi\\models\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|c:\\users\\saurabhkumar\\source\\repos\\shoppingportalapi\\shoppingportalapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|solutionrelative:shoppingportalapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|c:\\users\\saurabhkumar\\source\\repos\\shoppingportalapi\\shoppingportalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1755D45D-1157-4A7E-B5AE-144AFA4B14B9}|ShoppingPortalApi\\ShoppingPortalApi.csproj|solutionrelative:shoppingportalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartDetail.cs",
+              "DocumentMoniker": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Models\\CartDetail.cs",
+              "RelativeDocumentMoniker": "ShoppingPortalApi\\Models\\CartDetail.cs",
+              "ToolTip": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Models\\CartDetail.cs",
+              "RelativeToolTip": "ShoppingPortalApi\\Models\\CartDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T12:47:55.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ShoppingPortalApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\appsettings.json",
+              "RelativeToolTip": "ShoppingPortalApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T08:05:44.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ShoppingPortalApi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Models\\User.cs",
+              "RelativeToolTip": "ShoppingPortalApi\\Models\\User.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T17:30:52.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ShoppingPortalApi\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ShoppingPortalApi\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwBQAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T02:22:27.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FilterController.cs",
+              "DocumentMoniker": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Controllers\\FilterController.cs",
+              "RelativeDocumentMoniker": "ShoppingPortalApi\\Controllers\\FilterController.cs",
+              "ToolTip": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Controllers\\FilterController.cs",
+              "RelativeToolTip": "ShoppingPortalApi\\Controllers\\FilterController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T08:09:29.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ShoppingPortalApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ShoppingPortalApi\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T17:39:08.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "ShoppingPortalApi\\Models\\Login.cs",
+              "ToolTip": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Models\\Login.cs",
+              "RelativeToolTip": "ShoppingPortalApi\\Models\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T17:41:28.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ShoppingPortalApi\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ShoppingPortalApi\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T08:07:48.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240415022924_Migrations.cs",
+              "DocumentMoniker": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Migrations\\20240415022924_Migrations.cs",
+              "RelativeDocumentMoniker": "ShoppingPortalApi\\Migrations\\20240415022924_Migrations.cs",
+              "ToolTip": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Migrations\\20240415022924_Migrations.cs",
+              "RelativeToolTip": "ShoppingPortalApi\\Migrations\\20240415022924_Migrations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T02:29:24.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240415022828_Migrations.cs",
+              "DocumentMoniker": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Migrations\\20240415022828_Migrations.cs",
+              "RelativeDocumentMoniker": "ShoppingPortalApi\\Migrations\\20240415022828_Migrations.cs",
+              "ToolTip": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Migrations\\20240415022828_Migrations.cs",
+              "RelativeToolTip": "ShoppingPortalApi\\Migrations\\20240415022828_Migrations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T02:28:29.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ShoppingPortalApi\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Models\\Product.cs",
+              "RelativeToolTip": "ShoppingPortalApi\\Models\\Product.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAmwA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T07:59:25.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Models\\ProductDbContext.cs",
+              "RelativeDocumentMoniker": "ShoppingPortalApi\\Models\\ProductDbContext.cs",
+              "ToolTip": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Models\\ProductDbContext.cs",
+              "RelativeToolTip": "ShoppingPortalApi\\Models\\ProductDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T08:05:02.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Program.cs",
+              "RelativeDocumentMoniker": "ShoppingPortalApi\\Program.cs",
+              "ToolTip": "C:\\Users\\SaurabhKumar\\source\\repos\\ShoppingPortalApi\\ShoppingPortalApi\\Program.cs",
+              "RelativeToolTip": "ShoppingPortalApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T05:16:10.207Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+<app-navbar></app-navbar>
+<div class="admin-page">
+    <h2>Admin Panel</h2>
+    <div class="admin-subpanel fw-semibold d-flex">
+        <p class="admin-note">Note: All are the listed items in your store.</p>
+        <button class="add-button ms-auto text-white border-0 rounded-1 fw-semibold" (click)="openProductModal()">Add
+            Product</button>
+    </div>
+    <table class="table table-striped">
+        <thead>
+            <tr class="fw-bold">
+                <td>Sr.no</td>
+                <td>Product name</td>
+                <td>Category</td>
+                <td>Price</td>
+                <td>Action</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let p of products">
+                <td>{{p.id}}</td>
+                <td>{{p.name}}</td>
+                <td>{{p.category}}</td>
+                <td>{{p.price}}$</td>
+                <td>
+                    <!-- <button class=" border-0 rounded-1 bg-primary text-white">Edit</button> -->
+                    <button (click)="deleteProduct(p.id)" class="border-0 rounded-1 bg-transparent text-danger ms-2"><i
+                            class="bi bi-trash"></i></button>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+<!-- Add Product Modal -->
+<div id="addProductModal" class="addModal" *ngIf="isAddProductModalOpen">
+    <div class="modal-content">
+        <h5>Add Product <span class="close float-end" (click)="closeProductModal()">&times;</span></h5>
+        <form>
+            <div class="row">
+                <div class="col-12 mt-3">
+                    <label>Enter Product Name</label><span class="text-danger fw-semibold">*</span>
+                    <input [(ngModel)]="product.name" name="name" type="text" class="form-control"
+                        placeholder="Ex: White Cotton Shirt">
+                </div>
+                <div class="col-12 mt-3">
+                    <label>Enter Product Price($)</label><span class="text-danger fw-semibold">*</span>
+                    <input [(ngModel)]="product.price" name="price" type="number" class="form-control"
+                        placeholder="Ex: 126">
+                </div>
+                <div class="col-12 mt-3">
+                    <label>Enter Product Description</label><span class="text-danger fw-semibold">*</span>
+                    <input [(ngModel)]="product.description" name="description" type="text" class="form-control"
+                        placeholder="Ex: Casual shirt with premium feel">
+                </div>
+                <div class="col-12 mt-3">
+                    <label>Enter Product Category</label><span class="text-danger fw-semibold">*</span>
+                    <select [(ngModel)]="product.category" name="category" class="form-select custom-field">
+                        <option value="">Select Category</option>
+                        <option value="topwear">Top Wear</option>
+                        <option value="bottomwear">Bottom Wear</option>
+                        <option value="footwear">Foot Wear</option>
+                    </select>
+                </div>
+                <div class="col-12 mt-3">
+                    <label>Enter Product Style</label><span class="text-danger fw-semibold">*</span>
+                    <input [(ngModel)]="product.style" name="style" type="text" class="form-control"
+                        placeholder="Ex: Casual Shirt">
+                </div>
+                <div class="col-12 mt-3">
+                    <label>Upload Product Image</label><span class="text-danger fw-semibold">*</span>
+                    <input type="file" class="form-control custom-field" (change)="onFileSelected($event)">
+                </div>
+                <div class="col-12 mt-2">
+                    <button type="button" class="btn add-button text-white mt-3 float-end" (click)="AddProduct()">Add
+                        Product</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+</div>
+
+<app-footer></app-footer>

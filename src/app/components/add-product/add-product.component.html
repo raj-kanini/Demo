@@ -1,0 +1,14 @@
+<div class="container">
+    <input [(ngModel)]="product.name" type="text" placeholder="ProductName">
+    <input [(ngModel)]="product.price" type="number" placeholder="Price">
+    <input [(ngModel)]="product.description" type="text" placeholder="Description">
+    <select [(ngModel)]="product.category">
+        <option value="" class="text-gray">Select Category</option>
+        <option value="topwear">Top Wear</option>
+        <option value="bottomwear">Bottom Wear</option>
+        <option value="shoes">Shoes</option>
+    </select>
+    <input [(ngModel)]="product.style" type="text" placeholder="style">
+    <input type="file" placeholder="Upload Image" (change)="onFileSelected($event)"><br><br>
+    <button (click)="AddProduct()" class="btn btn-primary">Add Product</button>
+</div>

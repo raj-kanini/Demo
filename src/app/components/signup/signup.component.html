@@ -1,0 +1,27 @@
+<div class="form-body mt-5">
+	<div class="main bg-dark">
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+		<div class="sign-up">
+			<form>
+				<label for="chk" aria-hidden="true">Sign up</label>
+				<input [(ngModel)]="userDetail.username" type="text" name="txt" placeholder="Username" required="">
+				<input [(ngModel)]="userDetail.email" type="email" name="email" placeholder="Email" required="">
+				<input [(ngModel)]="userDetail.password" type="password" name="pswd" placeholder="Password" required="">
+				<button (click)="registerUser()">Sign up</button>
+			</form>
+		</div>
+
+		<div class="login">
+			<form>
+				<label for="chk" aria-hidden="true">Login</label>
+				<input [(ngModel)]="loginDetail.userName" type="text" name="UserName" placeholder="UserName"
+					required="">
+				<input [(ngModel)]="loginDetail.password" type="password" name="pswd" placeholder="Password"
+					required="">
+				<button (click)="loginUser()">Login</button>
+			</form>
+		</div>
+	</div>
+</div>
+<app-footer></app-footer>
